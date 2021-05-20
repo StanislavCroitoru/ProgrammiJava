@@ -66,13 +66,13 @@ public class GiocoDadi {
                 Random random = new Random();
                  int Importo = Integer.parseInt(textField1.getText());
 
-                  //int Dado1 = random.nextInt(8);
-                   //int Dado2 = random.nextInt(8);
-                    //int Dado3 = random.nextInt(8);
+                  int Dado1 = random.nextInt(8);
+                  int Dado2 = random.nextInt(8);
+                  int Dado3 = random.nextInt(8);
 
-                int Dado1 = 5;
-                 int Dado2 = 5;
-                  int Dado3 = 5;
+                  //int Dado1 = 5;
+                  //int Dado2 = 5;
+                  //int Dado3 = 5;
 
                     dado1.setText(String.valueOf(Dado1));
                      dado2.setText(String.valueOf(Dado2));
